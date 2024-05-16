@@ -1,24 +1,52 @@
-import logo from './logo.svg';
+import React, {useState, useEffect} from 'react';
 import './App.css';
-
+import Header from './components/Header/Header';
+import StudentContainer from './components/StudentContainer/StudentContainer';
+import StudentApplicant from './components/StudentApplicant/StudentApplicant';
+import QuestionCard from './components/QuestionCard/QuestionCard';
+import StudentEdit from './components/StudentEdit/StudentEdit';
+import AddStudent from './components/AddStudent/AddStudent';
+import ApplicantForm from './components/ApplicantForm/ApplicantForm';
+import EditApplicant from './components/EditApplicant/EditApplicant';
 function App() {
+  const [students, setstudents] = useState([])
+
+  useEffect(() => {
+    fetch("http://localhost:4001/students") 
+    .then(r => r.json())
+  .then(setstudents)
+    
+  }, [])
+
+  const [applicants, setApplicants] = useState([])
+  useEffect(() => {
+      fetch("http://localhost:4001/studentApplicants") 
+      .then(r => r.json())
+    .then(setApplicants)
+  }, [])
+  function handleAddStudent(newStudent){
+    setstudents([...students, newStudent])
+    }
+    function handleAddApplicant(newApplicant){
+      setApplicants([...applicants, newApplicant])
+      }
   return (
+    <>
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+     <Header/>
+     </div>
+     <main className="main-section">
+      <p className = "student-details">
+     <StudentContainer students={students} setstudents={setstudents}/>
+     </p>
+     </main>
+     <StudentApplicant applicant={applicants}/>
+     <QuestionCard/>
+    <AddStudent onAddStudent={handleAddStudent}/>
+    <ApplicantForm onAddApplicant={handleAddApplicant}/>
+     <StudentEdit />
+     <EditApplicant />
+     </>
   );
 }
 

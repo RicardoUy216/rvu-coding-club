@@ -1,38 +1,86 @@
-.App {
-  text-align: center;
+.App >h1 {
+  text-align:center;
+  border: 5px solid red;
+  
+}
+.main-section {
+  border: 5px solid blue;
+  display:flex;
+}
+.student-details {
+  text-align:center;
+  border: 5px solid green;
+ 
+  width: 50%
+}
+.editFormSection {
+  text-align:center;
+  border: 5px solid purple;
+  
+  width: 50%
+}
+label {
+  display: block;
+  text-align:center;
+  width: 100%; /* Adjust this percentage based on your design preferences */
+  margin-bottom: 20px;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Adjust this property as needed */
+}
+.card {
+  width: 23%; /* Adjust this percentage based on your design preferences */
+  margin-bottom: 20px;
+  border: 5px solid #2b7255;
+  overflow: hidden; /* Ensure the image doesn't overflow the card */
+}
+.card1 {
+  text-align:center;
+  width: 100%; /* Adjust this percentage based on your design preferences */
+  margin-bottom: 20px;
+  border: 5px solid #612b72;
+  overflow: hidden; /* Ensure the image doesn't overflow the card */
+}
+.image-container {
+  width: 200px; /* Set the desired width */
+  height: 200px; /* Set the desired height */
+  overflow: hidden;
 }
 
-.App-link {
-  color: #61dafb;
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+@media (max-width: 768px) {
+  .card {
+    width: 100%; /* Full width for one card per row on smaller screens */
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+  .page-background {
+    background-image: url('https://th.bing.com/th/id/OIP.ReeyZKEDTYiUhtj74DhJ0AHaD8?w=291&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .big-heading {
+    font-size: 6em;
+    color: red
+    /* Additional styles for your heading go here */
   }
-}
+  
+  /* Additional styles for your text content go here */
+  
