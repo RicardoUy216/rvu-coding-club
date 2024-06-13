@@ -8,6 +8,8 @@ import StudentEdit from './components/StudentEdit/StudentEdit';
 import AddStudent from './components/AddStudent/AddStudent';
 import ApplicantForm from './components/ApplicantForm/ApplicantForm';
 import EditApplicant from './components/EditApplicant/EditApplicant';
+import StudentManagement from './components/Student Management/StudentManagement';
+import StudentApplMgmt from './components/StudentApplMgmt/StudentApplMgmt';
 function App() {
   const [students, setstudents] = useState([])
 
@@ -40,12 +42,14 @@ function App() {
      <StudentContainer students={students} setstudents={setstudents}/>
      </p>
      </main>
-     <StudentApplicant applicant={applicants}/>
+     <StudentApplicant applicants={applicants} setApplicants={setApplicants}/>
      <QuestionCard/>
     <AddStudent onAddStudent={handleAddStudent}/>
     <ApplicantForm onAddApplicant={handleAddApplicant}/>
      <StudentEdit />
      <EditApplicant />
+     <StudentManagement/>
+     <StudentApplMgmt/>
      </>
   );
 }

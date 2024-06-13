@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-
+import  './AddStudent.css'
 function AddStudent ({onAddStudent}) {
     const [ newStudent, setNewStudent] = useState({
        
@@ -75,65 +75,65 @@ try {
   };
 
   return (
-    <div className= "add-Student">
+    <div className= "card1">
       <h2>Add New Student</h2>
-      <ul>
+      
       <form> 
       
-    <li>  <label>
+<p>  <label>
         Name:
         <input type="text" name="name" value={newStudent.id} onChange={handleInputChange} />
-      </label> </li>
-      <li>  <label>
+      </label></p>
+  <p>  <label>
         Identification Number:
         <input type="text" name="idnumber" value={newStudent.idnumber} onChange={handleInputChange} />
-      </label> </li>
-      <li>  <label>
+      </label></p>
+  <p>  <label>
         Image:
       <input type="text" name="imageUrl" value={newStudent.imageUrl}placeholder="Image URL" onChange={handleInputChange}/>
-      </label> </li>
-      <li>  <label>
+      </label></p>
+  <p>  <label>
         username:
         <input type="text" name="username" value={newStudent.username} onChange={handleInputChange} />
-      </label></li>
-      <li>   <label>
+      </label></p>
+  <p>   <label>
         Password:
         <input type="text" name="password" value={newStudent.password} onChange={handleInputChange} />
-      </label></li>
-      <li>   <label>
+      </label></p>
+  <p>   <label>
         Email:
         <input type="text" name="email" value={newStudent.email} onChange={handleInputChange} />
-      </label> </li>
-      <li>   <label>
+      </label></p>
+  <p>   <label>
         Schedule:
         <input type="text" name="schedule" value={newStudent.schedule} onChange={handleInputChange} />
-      </label></li>
-      <li> <label>
+      </label></p>
+  <p> <label>
         Address:
         <input type="text" name="address" value={newStudent.address} onChange={handleInputChange} />
-      </label></li>
-      <li>  <label>
+      </label></p>
+  <p>  <label>
         phone or Mobile number:
         <input type="text" name="phone" value={newStudent.phone} onChange={handleInputChange} />
-      </label></li>
-      <li>   <label>
+      </label></p>
+  <p>   <label>
         status:
         <input type="text" name="status" value={newStudent.status} onChange={handleInputChange} />
-      </label> </li>
-      <li>   <label>
+      </label></p>
+  <p>   <label>
         program:
         <input type="text" name="program" value={newStudent.program} onChange={handleInputChange} />
-      </label></li>
-      <li> <label>
+      </label></p>
+  <p> <label>
         currentGrade:
         <input type="text" name="currentGrade" value={newStudent.currentGrade} onChange={handleInputChange} />
-      </label></li>
-      <li>  <label>
+      </label></p>
+  <p>  <label>
         balanceToPay:
         <input type="number" name="balanceToPay" value={newStudent.balanceToPay} onChange={handleInputChange} />
-      </label></li>
+      </label></p>
       </form>
-      </ul>
+      
       <button onClick={handleAddStudent}>Add Student</button>
     </div>
   );

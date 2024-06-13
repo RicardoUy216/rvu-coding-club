@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import Detail from '../Detail/Detail';
-
+import './StudentDetails.css'
 const StudentDetails = ({students}) => {
 const [searchTerm, setSearchTerm]=useState('')
 
@@ -26,7 +26,7 @@ const filteredStudents = students.filter((student) =>
      />
      </div>
      <div className='card-container'>
-    <h2>Student Details</h2>
+    
     
         {studentList}
         

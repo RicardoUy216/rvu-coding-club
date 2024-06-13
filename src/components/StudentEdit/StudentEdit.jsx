@@ -49,7 +49,7 @@ function StudentEdit() {
   };
        
   return (
-    <div>
+    <div className='card1'>
       <h2>Update Student</h2>
       <form onSubmit={handleFormSubmit}>
         <div>
@@ -112,7 +112,7 @@ function StudentUpdateForm({ studentData, onUpdateStudent }) {
   };
  
   return (
-    <div>
+    <div >
       <h3>Student Details</h3>
       <p>ID: {studentData.id}</p>
       <div>

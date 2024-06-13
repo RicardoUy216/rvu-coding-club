@@ -49,7 +49,7 @@ function EditApplicant() {
   };
        
   return (
-    <div>
+    <div className='card1'>
       <h2>Update applicant</h2>
       <form onSubmit={handleFormSubmit}>
         <div>
@@ -110,7 +110,7 @@ function ApplicantUpdateForm({ applicantData, onUpdateapplicant }) {
   };
  
   return (
-    <div>
+    <div className='card1'>
       <h3>applicant update</h3>
       <p>ID: {applicantData.id}</p>
       

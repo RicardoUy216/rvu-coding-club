@@ -4,7 +4,7 @@ const Detail = ({student}) => {
   const {
       
       name,
-      idNumber,
+      id,
       imageUrl, 
       username,
       password,
@@ -22,7 +22,7 @@ const Detail = ({student}) => {
     <div className='card'>
          
         <h3>Name: {name}</h3>
-        <p>Identification Number: {idNumber}</p>
+        <p>Identification Number: {id}</p>
         <img className="image-container" src={imageUrl} alt={name} />
         <p>Username: {username}</p>
         <p>Password: {password}</p>

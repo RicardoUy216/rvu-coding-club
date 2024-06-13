@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-
+import './ApplicantForm.css'
 const ApplicantForm = ({onAddApplicant}) => {
     const [ newApplicant, setNewApplicant] = useState({
 
@@ -69,64 +69,65 @@ const ApplicantForm = ({onAddApplicant}) => {
         }
       };
   return (
-    <div className= "add-Applicant">
-    <h2>Add New Applicant</h2>
-    <ul>
+    <div className= "card1">
+    <h2>Welcome Applicant!</h2>
+    <h3>Please fill up all the required boxes below:</h3>
     <form> 
     
  
     
-    <li>  <label>
+   <p>  <label>
       Name:
       <input type="text" name="fullName" value={newApplicant.fullName} onChange={handleInputChange} />
-    </label> </li>
+    </label> </p>
     
-    <li>  <label>
+   <p>  <label>
       username:
       <input type="text" name="username" value={newApplicant.username} onChange={handleInputChange} />
-    </label></li>
+    </label></p>
     
-    <li>   <label>
+   <p>   <label>
       Email:
       <input type="text" name="email" value={newApplicant.email} onChange={handleInputChange} />
-    </label> </li>
+    </label> </p>
    
-    <li> <label>
+   <p> <label>
       Address:
       <input type="text" name="address" value={newApplicant.address} onChange={handleInputChange} />
-    </label></li>
-    <li>  <label>
+    </label></p>
+   <p>  <label>
       phone or Mobile number:
       <input type="text" name="phone" value={newApplicant.phone} onChange={handleInputChange} />
-    </label></li>
-    <li>   <label>
+    </label></p>
+   <p>   <label>
+    <p>Please put 0 on this box</p>
       testScore:
       <input type="number" name="testScore" value={newApplicant.testScore} onChange={handleInputChange} />
-  </label> </li>
-    <li>   <label>
+  </label> </p>
+   <p>   <label>
       Program applied:
       <input type="text" name="program" value={newApplicant.program} onChange={handleInputChange} />
-    </label></li>
-    <li> <label>
-      interview:
+    </label></p>
+   <p> <label>
+      Interview(Please schedule the date and time you are available for interview):
       <input type="text" name="interview" value={newApplicant.interview} onChange={handleInputChange} />
-    </label></li>
-    <li>  <label>
-      admissionStatus:
+    </label></p>
+   <p>  <label>
+      admissionStatus((Please put "in-process" in the box)):
       <input type="text" name="admissionStatus" value={newApplicant.admissionStatus} onChange={handleInputChange} />
-</label></li>
-    <li> <label>
-        Answer the questions in not more than 250 words,
+</label></p>
+   <p> <label>
+        <h4>Answer the questions 1 and 2 in not more than 250 words,</h4>
       Question1: What is your career goal five years from now?
       <input type="text" name="question1" value={newApplicant.question1} onChange={handleInputChange} />
-    </label></li>
-    <li>  <label>
+    </label></p>
+   <p>  <label>
       Question2: Why did you choose this program?
       <input type="text" name="question2" value={newApplicant.question2} onChange={handleInputChange} />
-    </label></li>
+    </label></p>
     </form>
-    </ul>
-    <button onClick={handleAddApplicant}>Apply</button>
+    <h4>Please review all the information you type in the boxes before clicking Apply.</h4>
+    <button className='apply-button' onClick={handleAddApplicant}>Apply</button>
   </div>
   )
 }
