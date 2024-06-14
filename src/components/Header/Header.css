@@ -1,0 +1,24 @@
+.page-background {
+    background-image: url('https://wallpaperaccess.com/full/724125.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .big-heading {
+    font-size: 6em;
+    color: red
+    /* Additional styles for your heading go here */
+  }
+  
+  /* Additional styles for your text content go here 
+  
+  https://cdn.pixabay.com/photo/2018/03/05/18/14/perspective-3201397_1280.jpg
+
+  https://th.bing.com/th/id/OIP.ReeyZKEDTYiUhtj74DhJ0AHaD8?w=291&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7*/

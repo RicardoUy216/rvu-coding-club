@@ -10,6 +10,8 @@ import ApplicantForm from './components/ApplicantForm/ApplicantForm';
 import EditApplicant from './components/EditApplicant/EditApplicant';
 import StudentManagement from './components/Student Management/StudentManagement';
 import StudentApplMgmt from './components/StudentApplMgmt/StudentApplMgmt';
+import About from './components/About/About';
+
 function App() {
   const [students, setstudents] = useState([])
 
@@ -37,6 +39,7 @@ function App() {
     <div className="App">
      <Header/>
      </div>
+     <About/>
      <main className="main-section">
       <p className = "student-details">
      <StudentContainer students={students} setstudents={setstudents}/>

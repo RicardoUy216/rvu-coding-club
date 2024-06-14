@@ -1,0 +1,25 @@
+.background-a {
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/542/270/492/abstract-blue-simple-wallpaper-preview.jpg");
+    background-size: cover;
+    color: blueviolet;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+  }
+
+.mission {
+    text-align: left;
+    color:blueviolet
+}
+.mission-p {
+    text-align: left;
+    color:blueviolet;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
