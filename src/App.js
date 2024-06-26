@@ -11,10 +11,12 @@ import EditApplicant from './components/EditApplicant/EditApplicant';
 import StudentManagement from './components/Student Management/StudentManagement';
 import StudentApplMgmt from './components/StudentApplMgmt/StudentApplMgmt';
 import About from './components/About/About';
-
+import StudentLogin from './components/StudentLogin/StudentLogin';
+import StudentApplicantLogin from './components/StudentApplicantLogin/StudentApplicantLogin';
 function App() {
   const [students, setstudents] = useState([])
-
+  const [isLoggedIn, setLoggedIn] = useState(false);
+  const [isLoggedIn1, setLoggedIn1] = useState(false);
   useEffect(() => {
     fetch("http://localhost:4001/students") 
     .then(r => r.json())
@@ -45,6 +47,8 @@ function App() {
      <StudentContainer students={students} setstudents={setstudents}/>
      </p>
      </main>
+     <StudentLogin students={students} setstudents={setstudents}/>
+     <StudentApplicantLogin applicants={applicants} setApplicants={setApplicants}/>
      <StudentApplicant applicants={applicants} setApplicants={setApplicants}/>
      <QuestionCard/>
     <AddStudent onAddStudent={handleAddStudent}/>
