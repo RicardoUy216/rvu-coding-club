@@ -65,8 +65,8 @@
   "studentApplicants": [
     {
       "id": 1,
-      "fullName": "Dolores",
-      "username": "Matrix28",
+      "name": "Dolores",
+      "password": "Matrix28",
       "email": "Sincere@april.biz",
       "address": "tyuiop[p[",
       "phone": "1-770-736-8031 x56442",
@@ -77,8 +77,8 @@
     },
     {
       "id": 2,
-      "fullName": "Arlan Vincent Diego Uy",
-      "username": "Arlan",
+      "name": "Arlan Vincent Diego Uy",
+      "password": "Arlan",
       "email": "gnhs.com@gmail.com",
       "address": "215 CHERRY ST South Elgin IL",
       "phone": "6308910271",
@@ -92,8 +92,8 @@
     },
     {
       "id": 3,
-      "fullName": "Maria",
-      "username": "smile",
+      "name": "Maria",
+      "password": "smile",
       "email": "gnhs.com@gmail.com",
       "address": "215 CHERRY ST South Elgin IL",
       "phone": "6308910271",
@@ -107,8 +107,8 @@
     },
     {
       "id": 4,
-      "fullName": "Eloise Uy",
-      "username": "Eloise",
+      "name": "Eloise Uy",
+      "password": "password",
       "email": "Eloise@gmail.com",
       "address": "Valley Dr. St Charles",
       "phone": "12345",
@@ -121,8 +121,8 @@
     },
     {
       "id": 5,
-      "fullName": "Merei Bertiz",
-      "username": "Merei",
+      "name": "Merei Bertiz",
+      "password": "Merei",
       "email": "merei@yahoo.com",
       "address": "200 West North Ave",
       "phone": "6308910271",
@@ -132,6 +132,13 @@
       "admissionStatus": "in- process",
       "question1": "to be a doctor",
       "question2": "to be good at computers"
+    }
+  ],
+  "admins": [
+    {
+      "idNunber": "1",
+      "userName": "Ricky",
+      "password":"dolphin"
     }
   ]
 }

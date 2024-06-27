@@ -1,7 +1,6 @@
 import React, { useState} from 'react';
-
 import './StudentLogin.css'
-function StudentLogin({  setLoggedIn1, students }) {
+function StudentLogin({  setLoggedIn1, students}) {
  
   const [name, setName] = useState('')
   const [password, setPassword] = useState('')
@@ -10,7 +9,7 @@ function StudentLogin({  setLoggedIn1, students }) {
   const [loginError, setLoginError] = useState('');
   const [logIn, setLogIn] = useState(false)
   
-
+console.log(students)
   const handleFormSubmit = (e) => {
     e.preventDefault();
 

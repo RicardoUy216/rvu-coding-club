@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import './StudentApplicantLogin.css'
 function StudentApplicantLogin({ setLoggedIn, applicants })  {
-  const [name, setName] = useState('')
-  const [password, setPassword] = useState('')
+  const [name, setname] = useState('')
+  const [password, setpassword] = useState('')
   const [studentApplicantData, setstudentApplicantData] = useState(null);
       const [loginError, setLoginError] = useState('');
       const [logIn, setLogIn] = useState(false)
@@ -26,7 +26,7 @@ function StudentApplicantLogin({ setLoggedIn, applicants })  {
       const fetchstudentApplicantData = (name) => {
         // Fetch applicants data based on the provided name
         
-        fetch(`/applicants?name=${name}`)
+        fetch(`/studentApplicants?name=${name}`)
           .then((resp) => resp.json())
           .then((data) => {
             // Assuming data is an array with one applicants object
@@ -57,7 +57,7 @@ function StudentApplicantLogin({ setLoggedIn, applicants })  {
                 placeholder='Your name'
                 name="name"
                 value={name}
-                onChange={(e) => setName(e.target.value)}
+                onChange={(e) => setname(e.target.value)}
               />
             </div>
             <div>
@@ -67,7 +67,7 @@ function StudentApplicantLogin({ setLoggedIn, applicants })  {
                 placeholder='password'
                 name="password"
                 value={password}
-               onChange={(e) => setPassword(e.target.value)}
+               onChange={(e) => setpassword(e.target.value)}
               />
             </div>
             <button type="submit">{logIn ? "Log out" : "Log in"}</button>
@@ -80,8 +80,8 @@ function StudentApplicantLogin({ setLoggedIn, applicants })  {
             <div className='card'>
               <h2>applicants Data</h2>
               <p>ID number: {studentApplicantData.id}</p>
-              <p>Name: {studentApplicantData.fullName}</p>
-              <p>Username:{studentApplicantData.username}</p>
+              <p>name: {studentApplicantData.name}</p>
+              <p>password:{studentApplicantData.password}</p>
               <p>Email:{studentApplicantData.email}</p>
               <p>Address: {studentApplicantData.address}</p>
               <p>phone:{studentApplicantData.phone}</p>

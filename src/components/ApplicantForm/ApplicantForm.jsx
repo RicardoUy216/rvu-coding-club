@@ -1,5 +1,7 @@
 import React, {useState} from 'react'
 import './ApplicantForm.css'
+import QuestionCard from '../QuestionCard/QuestionCard';
+
 const ApplicantForm = ({onAddApplicant}) => {
     const [ newApplicant, setNewApplicant] = useState({
 
@@ -69,14 +71,12 @@ const ApplicantForm = ({onAddApplicant}) => {
         }
       };
   return (
+    <>
     <div className= "card1">
     <h2>Welcome Applicant!</h2>
     <h3>Please fill up all the required boxes below:</h3>
     <form> 
-    
- 
-    
-   <p>  <label>
+    <p>  <label>
       Name:
       <input type="text" name="fullName" value={newApplicant.fullName} onChange={handleInputChange} />
     </label> </p>
@@ -129,7 +129,9 @@ const ApplicantForm = ({onAddApplicant}) => {
     <h4>Please review all the information you type in the boxes before clicking Apply.</h4>
     <button className='apply-button' onClick={handleAddApplicant}>Apply</button>
   </div>
-  )
+      <QuestionCard/>
+  </> 
+)
 }
 
 export default ApplicantForm
