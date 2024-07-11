@@ -55,8 +55,11 @@ console.log(students)
         <Route path="/StudentApplicantLogin">
           <StudentApplicantLogin applicants={applicants} setApplicants={setApplicants} isLoggedIn={isLoggedIn} setLoggedIn={setLoggedIn}/>
         </Route>
-        <Route  path="/ApplicantForm"> 
+       {/* <Route  path="/ApplicantForm"> 
          {isLoggedIn ? <ApplicantForm onAddApplicant={handleAddApplicant}/> : <Redirect to="/StudentApplicantLogin" />}
+        </Route>*/}
+         <Route path="/ApplicantForm">
+          <ApplicantForm onAddApplicant={handleAddApplicant}/>
         </Route>
         <Route  path="/QuestionCard">
         {isLoggedIn ? <QuestionCard /> : <Redirect to="/StudentApplicantLogin" />}

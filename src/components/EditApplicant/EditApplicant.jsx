@@ -77,8 +77,8 @@ function ApplicantUpdateForm({ applicantData, onUpdateapplicant }) {
   // Create state variables for the fields  to update
   //const [id, setId] = useState(applicantData.id);
   //const [id, setid] = useState(applicantData.id)
-  const [fullName, setFullName] = useState(applicantData.fullName);
-   const [userName, setUserName] = useState(applicantData.userName);
+  const [name, setname] = useState(applicantData.name);
+   const [password, setpassword] = useState(applicantData.password);
   const [email, setEmail] = useState(applicantData.email);
   const [address, setAddress] = useState(applicantData.address);
   const [phone, setPhone] = useState(applicantData.phone);
@@ -92,8 +92,8 @@ function ApplicantUpdateForm({ applicantData, onUpdateapplicant }) {
     // Construct updatedData object with the fields  to update
     const updatedData = {
        
-        fullName,
-        userName,
+        name,
+        password,
         email,
         address,
         phone,
@@ -116,11 +116,11 @@ function ApplicantUpdateForm({ applicantData, onUpdateapplicant }) {
       
       <div>
         <label>Full Name:</label>
-        <input type="text" value={fullName} onChange={(e) => setFullName(e.target.value)} />
+        <input type="text" value={name} onChange={(e) => setname(e.target.value)} />
       </div>
       <div>
-        <label>userName:</label>
-        <input type="text" value={userName} onChange={(e) => setUserName(e.target.value)} />
+        <label>password:</label>
+        <input type="text" value={password} onChange={(e) => setpassword(e.target.value)} />
       </div>
       
       <div>

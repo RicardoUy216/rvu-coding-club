@@ -62,7 +62,7 @@ return (
     <ul className='delete'>
       {filteredApplicants.map((applicant) => (
         <li key={applicant.id}>
-          {applicant.fullName}{' '}
+          {applicant.name}{' '}
           <DeleteApplicant applicantId={applicant.id} onDeleteApplicant={deleteApplicant} />
         </li>
         

@@ -8,7 +8,7 @@ function ApplicantDetails({applicants}) {
     setSearchTerm(event.target.value);
   };
   const filteredApplicants = applicants.filter((applicant) =>
-   applicant.fullName.toLowerCase().includes(searchTerm.toLowerCase()));
+   applicant.name.toLowerCase().includes(searchTerm.toLowerCase()));
   
 
    const applicantsList = filteredApplicants.map((applicant) => {

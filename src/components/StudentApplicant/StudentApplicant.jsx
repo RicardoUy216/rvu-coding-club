@@ -4,12 +4,7 @@ import SearchBarApp from './SearchBarApp'
 import SearchByIdApp from './SearchByIdApp'
 
 function StudentApplicant({applicants, setApplicants}) {
- /* const [applicants, setApplicants] = useState([])
-  useEffect(() => {
-      fetch("http://localhost:4001/studentApplicants") 
-      .then(r => r.json())
-    .then(setApplicants)
-  }, [])*/
+
   const [sortBy, setSortBy] = useState("Alphabetically")
   const [filterBy, setFilterBy] = useState("")
   const [searchedApplicant, setSearchedApplicant] = useState(null);
@@ -17,7 +12,7 @@ function StudentApplicant({applicants, setApplicants}) {
 
   const sortedApplicants = [...applicants].sort((applicantA, applicantB) => {
     if (sortBy === "Alphabetically") {
-      return applicantA.fullName.localeCompare(applicantB.fullName)
+      return applicantA.name.localeCompare(applicantB.name)
     } else {
       return applicantA.testScore - applicantB.testScore
     }
@@ -57,7 +52,7 @@ function StudentApplicant({applicants, setApplicants}) {
           </div>
         </div>
       )} 
-      <SearchByIdApp onSearchStudent={handleSearchApplicantById} 
+      <SearchByIdApp onSearchApplicant={handleSearchApplicantById} 
       searchTerm={searchTerm} setSearchTerm={setSearchTerm}/>
       <SearchBarApp 
       sortBy={sortBy} 

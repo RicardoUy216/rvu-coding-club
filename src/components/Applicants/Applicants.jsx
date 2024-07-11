@@ -3,8 +3,8 @@ import React from 'react'
 function Applicants({applicant}) {
     const {
         id,
-        fullName,
-        username,
+        name,
+        password,
         email,
         address,
         phone,
@@ -21,8 +21,8 @@ function Applicants({applicant}) {
     <div className='card'>
         <h3>Student Applicant</h3>
         <p>Identification number: {id}</p>
-        <h4>Name: {fullName}</h4>
-        <p>Username: {username}</p>
+        <h4>Name: {name}</h4>
+        <p>Password: {password}</p>
         <p>email: {email}</p>
         <p>address: {address}</p>
         <p>phone: {phone}</p>

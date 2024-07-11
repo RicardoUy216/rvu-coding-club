@@ -1,19 +1,6 @@
 {
   "students": [
     {
-      "id": 1,
-      "name": "Trump",
-      "imageUrl": "https://vignette.wikia.nocookie.net/westworld/images/5/51/Dolores_Abernathy_Vanishing_Point.jpg/revision/latest?cb=20180613181613",
-      "username": "Matrix28",
-      "email": "Sincere@april.biz",
-      "address": "tyuiop[p[",
-      "phone": "1-770-736-8031 x56442",
-      "enrolled": true,
-      "program": "Software Engineering",
-      "currentGrade": "95",
-      "balanceToPay": "2000"
-    },
-    {
       "name": "Merei Bertiz",
       "idnumber": "3",
       "imageUrl": "https://raw.githubusercontent.com/learn-co-curriculum/react-hooks-hogwild/master/public/images/peppa.jpg",
@@ -41,8 +28,8 @@
       "phone": "6308910271",
       "status": "enrolled",
       "program": "Data Analytics",
-      "currentGrade": "70",
-      "balanceToPay": "25",
+      "currentGrade": "80",
+      "balanceToPay": "0",
       "id": 4
     },
     {
@@ -60,6 +47,22 @@
       "currentGrade": "89",
       "balanceToPay": "05",
       "id": 5
+    },
+    {
+      "name": "Allan Uy",
+      "idnumber": "7",
+      "imageUrl": "https://vignette.wikia.nocookie.net/westworld/images/8/82/Akecheta_Kiksuya.jpg/revision/latest?cb=20180607183222",
+      "username": "Francis",
+      "password": "weru",
+      "email": "uyallan@gmail.com",
+      "schedule": "Monday to Wednesday",
+      "address": "215 CHERRY ST South Elgin IL",
+      "phone": "6308910271",
+      "status": "admitted",
+      "program": "Front end engineering",
+      "currentGrade": "89",
+      "balanceToPay": "500",
+      "id": 6
     }
   ],
   "studentApplicants": [
@@ -132,13 +135,27 @@
       "admissionStatus": "in- process",
       "question1": "to be a doctor",
       "question2": "to be good at computers"
+    },
+    {
+      "id": 6,
+      "name": "Allan Uy",
+      "password": "Francis",
+      "email": "uyallan.gmail.com",
+      "address": "200 West North Ave",
+      "phone": "6305976145",
+      "testScore": "",
+      "program": "Java Development",
+      "interview": "friday",
+      "admissionStatus": "in process",
+      "question1": "ghjkwrrtt",
+      "question2": "fgbvxxx"
     }
   ],
   "admins": [
     {
       "idNunber": "1",
       "userName": "Ricky",
-      "password":"dolphin"
+      "password": "dolphin"
     }
   ]
 }

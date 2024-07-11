@@ -6,8 +6,8 @@ const ApplicantForm = ({onAddApplicant}) => {
     const [ newApplicant, setNewApplicant] = useState({
 
         id: '',
-        fullName: '',
-        username:'',
+        name: '',
+      password:'',
         email: '',
         address: '', 
         phone: '',
@@ -53,8 +53,8 @@ const ApplicantForm = ({onAddApplicant}) => {
         setNewApplicant({ 
            
             id: '',
-            fullName: '',
-            username:'',
+            name: '',
+            password:'',
             email: '',
             address: '', 
             phone: '',
@@ -78,12 +78,12 @@ const ApplicantForm = ({onAddApplicant}) => {
     <form> 
     <p>  <label>
       Name:
-      <input type="text" name="fullName" value={newApplicant.fullName} onChange={handleInputChange} />
+      <input type="text" name="name" value={newApplicant.name} onChange={handleInputChange} />
     </label> </p>
     
    <p>  <label>
       username:
-      <input type="text" name="username" value={newApplicant.username} onChange={handleInputChange} />
+      <input type="text" name="password" value={newApplicant.password} onChange={handleInputChange} />
     </label></p>
     
    <p>   <label>
