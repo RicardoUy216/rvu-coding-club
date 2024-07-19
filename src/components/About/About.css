@@ -13,7 +13,7 @@
   }
 
 .mission {
-    text-align: left;
+    text-align: center;
     color:blueviolet
 }
 .mission-p {
@@ -22,4 +22,53 @@
     margin-right: 200px;
     margin-left: 200px;
 }
+.about-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 100px;
+  }
+.about-cont h2{
+    color: #171717;
+    font-size: 50px;
+    font-weight: 600;
+}
 
+@media(max-width:1280px){
+  
+  .about-cont h1{
+    font-size: 40px;
+  }
+  .about-cont hr{
+    width: 160px;
+    height: 4px;
+  }
+ 
+}
+@media(max-width:1024px){
+ 
+  .about-cont h1{
+    font-size: 30px;
+  }
+  .about-cont hr{
+    width: 120px;
+    height: 3px;
+  }
+  
+}
+@media(max-width:800px){
+  .about-cont{
+    
+    gap:6px
+  }
+  .about-cont h1{
+    font-size: 20px;
+  }
+  .about-cont hr{
+    width: 100px;
+    
+  }
+  
+
+}

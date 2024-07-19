@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import StudentDetails from '../StudentDetails/StudentDetails'
 import SearchBar from '../SearchBar/SearchBar'
 import SearchById from '../SearchById/SearchById'
+import './StudentContainer.css'
 
 function StudentContainer({students, setStudents}) {
   const [sortBy, setSortBy] = useState("Alphabetically")
@@ -35,7 +36,7 @@ function StudentContainer({students, setStudents}) {
   };
 
   return (
-    <div className='student-container'>
+    <div className='student-cont'>
       <div> <h2>STUDENTS</h2> </div>
       <div>
       {searchedStudent && (

@@ -2,7 +2,7 @@ import React, { useState} from 'react'
 import ApplicantDetails from '../ApplicantDetails/ApplicantDetails'
 import SearchBarApp from './SearchBarApp'
 import SearchByIdApp from './SearchByIdApp'
-
+import './StudentApplicant.css'
 function StudentApplicant({applicants, setApplicants}) {
 
   const [sortBy, setSortBy] = useState("Alphabetically")
@@ -36,14 +36,14 @@ function StudentApplicant({applicants, setApplicants}) {
   };
   return (
     <>
-        <div className='applicant-container'>
+        <div className='applicant-cont'>
       <div> <h2>STUDENT APPLICANTS</h2> </div>
       <div>
       {searchedApplicant && (
         <div >
          
           <h3>Searched Student Applicant</h3>
-          <div className='inventory'>
+          <div className='collections'>
           <h4>Name: {searchedApplicant.name}</h4>
           <p>currentGrade: {searchedApplicant.testScore}</p>
           {/*<img className='image-container' src={searchedApplicant.imageUrl} alt={searchedStudent.name} />*/}
