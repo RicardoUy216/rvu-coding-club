@@ -80,7 +80,7 @@ console.log(students)
       </div>
       </div>
       {studentData && (
-        <div className='card'>
+        <div className='student-login'>
           <h2>student Data</h2>
           <p>Name: {studentData.name}</p>
           <img src={studentData.imageUrl} alt={studentData.name}/>

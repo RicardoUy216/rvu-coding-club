@@ -78,7 +78,8 @@ function ApplicantUpdateForm({ applicantData, onUpdateapplicant }) {
   //const [id, setId] = useState(applicantData.id);
   //const [id, setid] = useState(applicantData.id)
   const [name, setname] = useState(applicantData.name);
-   const [password, setpassword] = useState(applicantData.password);
+  const [imageUrl, setImage] = useState(applicantData.imageUrl);
+  const [password, setpassword] = useState(applicantData.password);
   const [email, setEmail] = useState(applicantData.email);
   const [address, setAddress] = useState(applicantData.address);
   const [phone, setPhone] = useState(applicantData.phone);
@@ -93,6 +94,7 @@ function ApplicantUpdateForm({ applicantData, onUpdateapplicant }) {
     const updatedData = {
        
         name,
+        imageUrl,
         password,
         email,
         address,
@@ -117,6 +119,10 @@ function ApplicantUpdateForm({ applicantData, onUpdateapplicant }) {
       <div>
         <label>Full Name:</label>
         <input type="text" value={name} onChange={(e) => setname(e.target.value)} />
+      </div>
+      <div>
+        <label>Image:</label>
+        <input type="text" value={imageUrl} onChange={(e) => setImage(e.target.value)} />
       </div>
       <div>
         <label>password:</label>

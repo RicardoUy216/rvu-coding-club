@@ -4,6 +4,7 @@ function Applicants({applicant}) {
     const {
         id,
         name,
+        imageUrl,
         password,
         email,
         address,
@@ -21,6 +22,7 @@ function Applicants({applicant}) {
     <div className='card'>
         <h3>Student Applicant</h3>
         <p>Identification number: {id}</p>
+        <img className="image-container" src={imageUrl} alt={name} />
         <h4>Name: {name}</h4>
         <p>Password: {password}</p>
         <p>email: {email}</p>

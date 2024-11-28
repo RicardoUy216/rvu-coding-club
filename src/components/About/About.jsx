@@ -9,10 +9,10 @@ function About() {
     <p className='mission-p'> 
     <h2>Empowering tomorrow’s workforce through education</h2>
     <h1 className='mission'>OUR MISSION</h1>
-    At  RVU Computer School, our mission is
-     to empower individuals with the technical skills necessary to thrive 
-      today's digital economy. We provide comprehensive training in front-end development,
-      Java basics, and data analytics, bridging the gap between ambition and opportunity. 
+    At  RVU  Center for Applied Technology, our mission is
+     to empower individuals with the technical skills necessary to thrive in
+      today's digital economy. We provide comprehensive training in the latest computing technology,
+       bridging the gap between ambition and opportunity. 
       By fostering a supportive and inclusive learning environment, we aim to
        unlock the potential in each learner, equipping them with the knowledge 
        and tools to pursue rewarding careers and contribute meaningfully to
@@ -24,11 +24,11 @@ function About() {
 <p className='mission-p'> RVU Computer School believes that 
     education is the best investment you can make in your future.
      We’re committed to helping  change lives and the world for the better.
-
+We envision to create a community of learners who will collaborate to create and innovate.
 Our courses provide an immersive, outcomes-driven curriculum for 
 students looking to launch a career in Software Engineering, 
- Data Science, or Java Development. Courses are offered 
- online and in-person.</p>
+ Data Science, Cybersecurity Information or Java Development. Courses are offered 
+ online-hybrid and in-person.</p>
     </div>
     </div>
   )

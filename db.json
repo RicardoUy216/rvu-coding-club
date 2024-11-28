@@ -76,7 +76,8 @@
       "testScore": 0,
       "program": "Java",
       "interview": "",
-      "admissionStatus": ""
+      "admissionStatus": "",
+      "imageUrl": "https://raw.githubusercontent.com/learn-co-curriculum/react-hooks-hogwild/master/public/images/truffle_shuffle.jpg"
     },
     {
       "id": "2",
@@ -91,7 +92,8 @@
       "idnumber": "3",
       "admissionStatus": "Because",
       "testScore": "4",
-      "interview": "failed"
+      "interview": "failed",
+      "imageUrl": "\"C:\\Users\\Ricardo Uy\\Pictures\\Camera Roll\\IMG_0176 (2).jpg\""
     },
     {
       "id": "3",

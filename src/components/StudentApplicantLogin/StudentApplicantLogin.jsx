@@ -77,10 +77,11 @@ function StudentApplicantLogin({ setLoggedIn, applicants })  {
           </div>
           </div>
           {studentApplicantData && (
-            <div className='card'>
+            <div className='student-applicantLogin'>
               <h2>applicants Data</h2>
               <p>ID number: {studentApplicantData.id}</p>
               <p>name: {studentApplicantData.name}</p>
+              <img src={studentApplicantData.imageUrl} alt={studentApplicantData.name}/>
               <p>password:{studentApplicantData.password}</p>
               <p>Email:{studentApplicantData.email}</p>
               <p>Address: {studentApplicantData.address}</p>
