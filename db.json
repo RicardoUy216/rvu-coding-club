@@ -63,6 +63,22 @@
       "currentGrade": "89",
       "balanceToPay": "500",
       "id": "6"
+    },
+    {
+      "id": "dbba",
+      "name": "Edna Uy",
+      "idnumber": "12",
+      "imageUrl": "C:\\Users\\Ricardo Uy\\Pictures\\Camera Roll\\IMG_0176 (2).jpg",
+      "username": "Edna",
+      "password": "nagluto",
+      "email": "rvuy62@yahoo.com",
+      "schedule": "Monday to Saturday",
+      "address": "215 CHERRY ST",
+      "phone": "6305976145",
+      "status": "active",
+      "program": "Information Cybersecurity Analytics",
+      "currentGrade": "90",
+      "balanceToPay": "0345"
     }
   ],
   "studentApplicants": [
@@ -76,8 +92,7 @@
       "testScore": 0,
       "program": "Java",
       "interview": "",
-      "admissionStatus": "",
-      "imageUrl": "https://raw.githubusercontent.com/learn-co-curriculum/react-hooks-hogwild/master/public/images/truffle_shuffle.jpg"
+      "admissionStatus": ""
     },
     {
       "id": "2",
@@ -93,7 +108,7 @@
       "admissionStatus": "Because",
       "testScore": "4",
       "interview": "failed",
-      "imageUrl": "\"C:\\Users\\Ricardo Uy\\Pictures\\Camera Roll\\IMG_0176 (2).jpg\""
+      "imageUrl": "https://raw.githubusercontent.com/learn-co-curriculum/react-hooks-hogwild/master/public/images/peppa.jpg"
     },
     {
       "id": "3",

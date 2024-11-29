@@ -21,7 +21,7 @@ function About() {
 <h1 className='mission
 '>OUR VISION</h1>
 
-<p className='mission-p'> RVU Computer School believes that 
+<p className='mission-p'> RVU Institute for Applied Technology believes that 
     education is the best investment you can make in your future.
      We’re committed to helping  change lives and the world for the better.
 We envision to create a community of learners who will collaborate to create and innovate.

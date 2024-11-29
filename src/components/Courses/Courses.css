@@ -1,0 +1,54 @@
+.choose {
+    color: black;
+    text-align: center;
+}
+.da-paragraph {
+    text-align: left;
+}
+.data-analytics {
+            text-align: center;
+            border: 2px solid #000; /* Defines the border */
+            padding: 10px; /* Adds space between the text and the border */
+            background-color: #b23d3d; /* Optional background color */
+            width: fit-content; /* Adjusts the box size to fit the text */
+            margin: 20px; /* Optional spacing around the box */
+            border-radius: 5px; /* Optional rounded corners */
+}
+.front-end {
+            border: 2px solid #000; /* Defines the border */
+            padding: 10px; /* Adds space between the text and the border */
+            background-color: #abd95b; /* Optional background color */
+            width: fit-content; /* Adjusts the box size to fit the text */
+            margin: 20px; /* Optional spacing around the box */
+            border-radius: 5px; /* Optional rounded corners */
+}
+.full-stack {
+            border: 2px solid #000; /* Defines the border */
+            padding: 10px; /* Adds space between the text and the border */
+            background-color: #227f58; /* Optional background color */
+            width: fit-content; /* Adjusts the box size to fit the text */
+            margin: 20px; /* Optional spacing around the box */
+            border-radius: 5px; /* Optional rounded corners */
+}.cybersecurity {
+    border: 2px solid #000; /* Defines the border */
+    padding: 10px; /* Adds space between the text and the border */
+    background-color: #6284e3; /* Optional background color */
+    width: fit-content; /* Adjusts the box size to fit the text */
+    margin: 20px; /* Optional spacing around the box */
+    border-radius: 5px; /* Optional rounded corners */
+}
+.java {
+    border: 2px solid #000; /* Defines the border */
+    padding: 10px; /* Adds space between the text and the border */
+    background-color: #ac268f; /* Optional background color */
+    width: fit-content; /* Adjusts the box size to fit the text */
+    margin: 20px; /* Optional spacing around the box */
+    border-radius: 5px; /* Optional rounded corners */
+}.python {
+    border: 2px solid #000; /* Defines the border */
+    padding: 10px; /* Adds space between the text and the border */
+    background-color: #43978a; /* Optional background color */
+    width: fit-content; /* Adjusts the box size to fit the text */
+    margin: 20px; /* Optional spacing around the box */
+    border-radius: 5px; /* Optional rounded corners */
+}
