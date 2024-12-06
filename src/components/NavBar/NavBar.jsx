@@ -11,6 +11,7 @@ function Navbar() {
         <li><Link to="/">Home</Link></li>
         <li><Link to="/About">About</Link></li>
         <li><Link to="/Courses">Courses</Link></li>
+        <li><Link to="/Syllabus">Syllabus</Link></li>
           <li><Link to="/StudentLogin">Student login</Link></li>
           <li><Link to="/StudentApplicantLogin">Applicant Login</Link></li>
           <li><Link to="/ApplicantForm">Apply Here!</Link></li>

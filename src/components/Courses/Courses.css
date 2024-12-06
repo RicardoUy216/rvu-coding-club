@@ -1,5 +1,5 @@
 .choose {
-    color: black;
+    color: rgb(21, 12, 103);
     text-align: center;
 }
 .da-paragraph {
@@ -9,46 +9,61 @@
             text-align: center;
             border: 2px solid #000; /* Defines the border */
             padding: 10px; /* Adds space between the text and the border */
-            background-color: #b23d3d; /* Optional background color */
-            width: fit-content; /* Adjusts the box size to fit the text */
+            background-color: #dd9292; /* Optional background color */
+            width:100%; /* Adjusts the box size to fit the text */
             margin: 20px; /* Optional spacing around the box */
             border-radius: 5px; /* Optional rounded corners */
 }
+
 .front-end {
+    text-align: center;
             border: 2px solid #000; /* Defines the border */
             padding: 10px; /* Adds space between the text and the border */
             background-color: #abd95b; /* Optional background color */
-            width: fit-content; /* Adjusts the box size to fit the text */
+            width: 100%; /* Adjusts the box size to fit the text */
             margin: 20px; /* Optional spacing around the box */
             border-radius: 5px; /* Optional rounded corners */
 }
 .full-stack {
+    text-align: center;
             border: 2px solid #000; /* Defines the border */
             padding: 10px; /* Adds space between the text and the border */
-            background-color: #227f58; /* Optional background color */
-            width: fit-content; /* Adjusts the box size to fit the text */
+            background-color: #9ed8c0; /* Optional background color */
+            width: 100%; /* Adjusts the box size to fit the text */
             margin: 20px; /* Optional spacing around the box */
             border-radius: 5px; /* Optional rounded corners */
-}.cybersecurity {
+}.cybersecurity {text-align: center;
     border: 2px solid #000; /* Defines the border */
     padding: 10px; /* Adds space between the text and the border */
-    background-color: #6284e3; /* Optional background color */
-    width: fit-content; /* Adjusts the box size to fit the text */
+    background-color: #92a5d7; /* Optional background color */
+    width: 100%; /* Adjusts the box size to fit the text */
     margin: 20px; /* Optional spacing around the box */
     border-radius: 5px; /* Optional rounded corners */
 }
 .java {
+    text-align: center;
     border: 2px solid #000; /* Defines the border */
     padding: 10px; /* Adds space between the text and the border */
-    background-color: #ac268f; /* Optional background color */
-    width: fit-content; /* Adjusts the box size to fit the text */
+    background-color: #c683b7; /* Optional background color */
+    width: 100%; /* Adjusts the box size to fit the text */
     margin: 20px; /* Optional spacing around the box */
     border-radius: 5px; /* Optional rounded corners */
-}.python {
+}
+.python {
+    text-align: center;
     border: 2px solid #000; /* Defines the border */
     padding: 10px; /* Adds space between the text and the border */
-    background-color: #43978a; /* Optional background color */
-    width: fit-content; /* Adjusts the box size to fit the text */
+    background-color: #d4d4cb; /* Optional background color */
+    width: 100%; /* Adjusts the box size to fit the text */
+    margin: 20px; /* Optional spacing around the box */
+    border-radius: 5px; /* Optional rounded corners */
+}
+.css-html-js {
+    text-align: center;
+    border: 2px solid #000; /* Defines the border */
+    padding: 10px; /* Adds space between the text and the border */
+    background-color: #4a98c8; /* Optional background color */
+    width: 100%; /* Adjusts the box size to fit the text */
     margin: 20px; /* Optional spacing around the box */
     border-radius: 5px; /* Optional rounded corners */
 }
