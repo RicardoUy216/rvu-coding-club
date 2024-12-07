@@ -209,7 +209,7 @@ function Courses() {
              <ul>
                 <li>who are passionate about protecting digital
                      systems and networks from malicious activities.</li>
-                <li>who possess a strong understanding of computer systems,
+                <li>who want to possess a strong understanding of computer systems,
                      network protocols, and programming languages, 
                      along with a desire for continuous learning and staying
                      updated with the latest security threats and technologies.</li>

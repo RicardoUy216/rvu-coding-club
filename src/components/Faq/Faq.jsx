@@ -1,11 +1,11 @@
 import React from "react"
 import { useState } from "react"
-import data from "../data"
-import './Syllabus.css'
+import dataFaq from "../dataFaq"
+import './Faq.css'
 
 
 
-export default function Syllabus() {
+export default function Faq() {
 const [selected, setSelected] = useState(null)
 const [enableMultiSelection, setEnableMultiSelection] = useState(false)
 const [multiple, setMultiple] = useState([])
@@ -25,23 +25,23 @@ setMultiple(cpyMultiple)
 }
 console.log(selected)
     return <div className="wrapper">
-        <h1>PROGRAM OF STUDY</h1>
+        <h2 className="faq">FREQUENTLY ASKED QUESTIONS</h2>
         <button onClick={()=> setEnableMultiSelection(!enableMultiSelection)}>Enable Multi Selection</button>
         <div className="accordion">
 {
-    data && data.length > 0 ?
-    data.map(dataItem => <div className="item">
+    dataFaq && dataFaq.length > 0 ?
+    dataFaq.map(dataItem => <div className="item">
     <div onClick={
         enableMultiSelection
         ? () => handleMultiSelection(dataItem.id)
        : ()=>handleSingleSelection(dataItem.id)
        }
        className="title">
-    <h3>{dataItem.course}</h3>
-    <span>Show Syllabus /  Hide Syllabus</span>
+    <h3>{dataItem.question}</h3>
+    <span>Show /Hide answer</span>
     </div>
     {selected === dataItem.id ?
-    <div className="content">{dataItem.learnMore}</div>
+    <div className="content">{dataItem.answer}</div>
     : null
 }
 </div>)

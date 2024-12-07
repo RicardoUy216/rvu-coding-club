@@ -3,6 +3,7 @@ import './App.css';
 import Courses from './components/Courses/Courses';
 import Header from './components/Header/Header';
 import Syllabus from './components/Syllabus/Syllabus';
+import Faq from './components/Faq/Faq';
 import StudentContainer from './components/StudentContainer/StudentContainer';
 import StudentApplicant from './components/StudentApplicant/StudentApplicant';
 import QuestionCard from './components/QuestionCard/QuestionCard';
@@ -55,6 +56,9 @@ console.log(students)
         </Route>
         <Route path="/Syllabus">
         <Syllabus/>
+        </Route>
+        <Route path="/Faq">
+        <Faq/>
         </Route>
       <Route path="/StudentLogin">
           <StudentLogin students={students} setstudents={setstudents} isLoggedIn1={isLoggedIn1} setLoggedIn1={setLoggedIn1}/>
