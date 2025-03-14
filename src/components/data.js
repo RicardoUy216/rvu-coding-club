@@ -1,32 +1,27 @@
 const data = [
     {
         id: '1',
-        course: "Java Fundamentals",
-        learnMore:
-        "Accordion components are user interface elements used for organizing."
+        course: "Computer Science 101 (Java Fundamentals)",
+        learnMore: `Understand Java and set up a development environment.
+Learn the foundations of Java such as Java syntax, variables, data types, and operators.
+Use control structures (If, for, while loops).
+Understand and apply object-oriented programming (OOP) concepts: classes, objects, and inheritance.
+Create and use methods for modular programming.
+Handle exceptions and write error-handling code.
+Work with Java collections like ArrayList and HashMap.
+Write and run Java programs.`
     },
     {
         id : '2',
         course: "Python Fundamentals",
-        learnMore: `Understand why Python is so popular and user-friendly, and
-        practice navigating the online
-         code editor, Replit, before diving into basic Python programming.
-         Conditional statements allow you to make decisions based on the values of
-         variables or the result of comparisons. Learn about the different types,
-         like booleans and comparison operators, and how they allow you to create programs
-         that are vastly more complex.
-         Then practice using logical operators to enhance conditional statements.
-         Time to add some structure to your data — using lists to manage collections of data,
-         index-based retrieval to access and manipulate list items,
-          and dictionaries to represent data with multiple properties.
-          Need to generate the same block of code repeatedly without having to write
-           it multiple times? That’s where loops come in. Learn to differentiate between
-            while and for loops,
-           and best practices for using loops in your programming.
-           Learn what functions are used for in Python programming. Structure a function
-           and add parameters. Then take what you learned in previous units and practice
-            creating functions that include
-           loops and conditional logic to generate specific return values.`
+        learnMore: `Learning Outcomes:
+Understand Python basics, such as syntax, variables, and data types.
+Write Python code using loops, conditionals, and functions.
+Handle files (open, read, write) using Python.
+Use Python libraries and modules for specific tasks.
+Work with data structures like lists, tuples, sets, and dictionaries.
+Develop programs that use object-oriented concepts such as classes and inheritance.
+Develop a problem-solving mindset.`
     },
     {
         id : '3',
@@ -41,9 +36,18 @@ const data = [
         Now, let’s add some character to your HTML. You’ll learn the basics of CSS and how
         it works, then take your existing HTML code and apply
         basic CSS syntax to adjust color and alignment, and turn links into buttons.
-        The final piece of the web development puzzle. Learn how JavaScript adds interactivity
-         to a website using data types, control flow, and functions. Then get hands-on practice using DOM (Document Object Model)
-         events and event listeners to create interactive webpages.`
+        The final piece of the web development puzzle. 
+        Learning Outcomes:
+Learn how JavaScript works and how it is used in web development.
+Make web pages interactive by typing and running JavaScript code.
+Use variables to store and change data.
+Use data types and operators to do logic and calculations.
+Organize and reuse code by functions.
+Conditions, like "if" and "else," let you control how a program runs. Learn how to use them.
+Use loops (like for and while) to do things over and over again.
+Learn how to use Document Object Model (DOM) to change HTML elements.
+Make interactive user experiences by handling events like button clicks and form submissions.
+Debugging JavaScript code.`
     },
     {
         id : '4',
@@ -67,7 +71,24 @@ and compute descriptive statistics.
 Data Visualization: Create and customize diverse visualizations, including bar graphs,
  histograms, scatter plots, line plots, heat maps, and box plots.
 Project Documentation: Craft informative README files detailing project purpose,
-functionality, installation instructions, and usage guidelines.`
+functionality, installation instructions, and usage guidelines.
+SQL
+
+Tableau
+
+Data Analysis
+
+Statistical Programming Languages (Python, R)
+
+Data Visualization
+
+Excel and Spreadsheets
+
+Critical Thinking
+
+Communication Skills
+
+Problem-Solving`
 
     },
     {
@@ -142,7 +163,8 @@ Encryption Techniques & Cryptographic Algorithms: Learn how encryption secures d
 Incident Response Strategies: Develop skills for responding to security breaches.
 Hands-on Encryption Labs: Practice encrypting files and data.
 Incident Response Exercises: Simulate security incidents and analyze breaches.`
-    }
+    },
+    
 ]
 
 export default data

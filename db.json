@@ -92,7 +92,8 @@
       "testScore": 0,
       "program": "Java",
       "interview": "",
-      "admissionStatus": ""
+      "admissionStatus": "",
+      "imageUrl": "https://i.im.ge/2025/03/15/paZW3x.IMG-0187.jpeg"
     },
     {
       "id": "2",
@@ -166,6 +167,7 @@
       "admissionStatus": "in process",
       "question1": "ghjkwrrtt",
       "question2": "fgbvxxx"
+      
     }
   ],
   "admins": [
