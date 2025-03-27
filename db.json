@@ -11,7 +11,7 @@
       "address": "200 West North Ave",
       "phone": "6308910271",
       "status": "on leave",
-      "program": "Java",
+      "program": "Fundamentals of Computer Science(Java)",
       "currentGrade": "NA",
       "balanceToPay": "2000",
       "id": "3"
@@ -68,7 +68,7 @@
       "id": "dbba",
       "name": "Edna Uy",
       "idnumber": "12",
-      "imageUrl": "C:\\Users\\Ricardo Uy\\Pictures\\Camera Roll\\IMG_0176 (2).jpg",
+      "imageUrl": "https://vignette.wikia.nocookie.net/p__/images/8/88/Jessie_Toy_Story_3.png/revision/latest?cb=20161023024601&path-prefix=protagonist\" ",
       "username": "Edna",
       "password": "nagluto",
       "email": "rvuy62@yahoo.com",
@@ -90,7 +90,7 @@
       "address": "tyuiop[p[",
       "phone": "1-770-736-8031 x56442",
       "testScore": 0,
-      "program": "Java",
+      "program": "Fundamentals of Computer Science(Java)",
       "interview": "",
       "admissionStatus": "",
       "imageUrl": "https://i.im.ge/2025/03/15/paZW3x.IMG-0187.jpeg"
@@ -102,7 +102,7 @@
       "email": "gnhs.com@gmail.com",
       "address": "215 CHERRY ST South Elgin IL",
       "phone": "6308910271",
-      "program": "to be a computer",
+      "program": "Data Analytics",
       "question1": "to be a computer",
       "question2": "",
       "idnumber": "3",
@@ -119,12 +119,13 @@
       "address": "215 CHERRY ST South Elgin IL",
       "phone": "6308910271",
       "testScore": "",
-      "program": "Java",
+      "program": "Fundamentals of Computer Science(Java)",
       "interview": "",
       "admissionStatus": "",
       "question1": "to be a computer scientist and earn billions of pesos",
       "question2": "Because I like it",
-      "idnumber": "4"
+      "idnumber": "4",
+      "imageUrl": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png"
     },
     {
       "id": "4",
@@ -134,11 +135,13 @@
       "address": "Valley Dr. St Charles",
       "phone": "12345",
       "testScore": "5",
-      "program": "Java",
+      "program": "Software Engineering",
       "interview": "good",
       "admissionStatus": "admitted",
       "question1": "to be a computer literate",
-      "question2": "none of your business"
+      "question2": "none of your business",
+      "imageUrl":  "http://4.bp.blogspot.com/_OZHbJ8c71OM/Sog43CMFX2I/AAAAAAAADEs/0AKX0XslD4g/s400/bo.png"
+      
     },
     {
       "id": "5",
@@ -148,11 +151,12 @@
       "address": "200 West North Ave",
       "phone": "6308910271",
       "testScore": "8",
-      "program": "Front end engineering",
+      "program": "Software Engineering",
       "interview": "June 15, 2024",
       "admissionStatus": "in- process",
       "question1": "to be a doctor",
-      "question2": "to be good at computers"
+      "question2": "to be good at computers",
+      "imageUrl": "https://vignette.wikia.nocookie.net/p__/images/8/88/Jessie_Toy_Story_3.png/revision/latest?cb=20161023024601&path-prefix=protagonist\""
     },
     {
       "id": "6",
@@ -162,12 +166,12 @@
       "address": "200 West North Ave",
       "phone": "6305976145",
       "testScore": "",
-      "program": "Java Development",
+      "program": "Information Cybersecurity Analytics",
       "interview": "friday",
       "admissionStatus": "in process",
       "question1": "ghjkwrrtt",
-      "question2": "fgbvxxx"
-      
+      "question2": "fgbvxxx",
+      "imageUrl": "https://cdn140.picsart.com/244090226021212.png?r1024x1024"
     }
   ],
   "admins": [

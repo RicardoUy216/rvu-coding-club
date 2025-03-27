@@ -7,6 +7,7 @@ const ApplicantForm = ({onAddApplicant}) => {
 
         id: '',
         name: '',
+        imageUrl: '',
       password:'',
         email: '',
         address: '', 
@@ -22,8 +23,8 @@ const ApplicantForm = ({onAddApplicant}) => {
         setNewApplicant({ ...newApplicant, [e.target.name]: e.target.value });
       };
       const handleAddApplicant = async () => {
-       /* if (  !newApplicant.id  || !newApplicant.fullName  
-            || !newApplicant.username
+        if (  !newApplicant.id  || !newApplicant.fullName  
+            || !newApplicant.imageUrl|| !newApplicant.username
             || !newApplicant.email || !newApplicant.address
             || !newApplicant.phone 
             || !newApplicant.program || !newApplicant.question1
@@ -31,7 +32,7 @@ const ApplicantForm = ({onAddApplicant}) => {
         ) {
             alert('Please fill in all fields');
             return;
-    }*/
+    }
     try {
         const response = await fetch('http://localhost:4001/studentApplicants', {
           method: 'POST',
@@ -54,6 +55,7 @@ const ApplicantForm = ({onAddApplicant}) => {
            
             id: '',
             name: '',
+            imageUrl: '',
             password:'',
             email: '',
             address: '', 
@@ -80,7 +82,10 @@ const ApplicantForm = ({onAddApplicant}) => {
       Name:
       <input type="text" name="name" value={newApplicant.name} onChange={handleInputChange} />
     </label> </p>
-    
+    <p>  <label>
+        Image:
+      <input type="text" name="imageUrl" value={newApplicant.imageUrl}placeholder="Image URL" onChange={handleInputChange}/>
+      </label></p>
    <p>  <label>
       username:
       <input type="text" name="password" value={newApplicant.password} onChange={handleInputChange} />

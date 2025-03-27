@@ -32,9 +32,10 @@ function SearchBarApp({sortBy, setSortBy, filterBy, setFilterBy}) {
         <select onChange={e => setFilterBy(e.target.value)} value={filterBy}>
         <option value="">Choose Program</option>
         <option value="All">All</option>
-          <option value="Java">Java</option>
+          <option value="Fundamentals of Computer Science(Java)">Fundamentals of Computer Science(Java)</option>
           <option value="Data Analytics">Data Analytics</option>
-          <option value="Software Engineering">Front End Engineering</option>
+          <option value="Software Engineering">Software Engineering</option>
+          <option value="Information Cybersecurity Analytics">Information Cybersecurity Analytics</option>
         </select>
       </label>
     </div>
