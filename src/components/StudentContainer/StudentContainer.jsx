@@ -26,7 +26,7 @@ function StudentContainer({students, setStudents}) {
   })
   const handleSearchStudentById = () => {
     // Filter students based on the entered student ID
-    const foundStudent = students.find(student => (student.id) === parseInt(searchTerm));
+    const foundStudent = students.find(student => (student.id) === (searchTerm));
 
     if (foundStudent) {
       setSearchedStudent(foundStudent);

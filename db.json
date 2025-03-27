@@ -3,7 +3,7 @@
     {
       "name": "Merei Bertiz",
       "idnumber": "3",
-      "imageUrl": "https://raw.githubusercontent.com/learn-co-curriculum/react-hooks-hogwild/master/public/images/peppa.jpg",
+      "imageUrl": "http://4.bp.blogspot.com/_OZHbJ8c71OM/Sog43CMFX2I/AAAAAAAADEs/0AKX0XslD4g/s400/bo.png",
       "username": "Merei",
       "password": "alexa",
       "email": "merei@yahoo.com",
@@ -79,6 +79,22 @@
       "program": "Information Cybersecurity Analytics",
       "currentGrade": "90",
       "balanceToPay": "0345"
+    },
+    {
+      "name": "Martha Sert",
+      "idnumber": "8",
+      "imageUrl": "https://www.freeiconspng.com/uploads/slinky-png-transparent-1.png",
+      "username": "Martha",
+      "password": "martha",
+      "email": "gnhs.com@gmail.com",
+      "schedule": "Monday to Saturday",
+      "address": "215 CHERRY ST South Elgin IL",
+      "phone": "6305976145",
+      "status": "enrolled",
+      "program": "Data Analytics",
+      "currentGrade": "23",
+      "balanceToPay": "0567",
+      "id": "3g03Mvs"
     }
   ],
   "studentApplicants": [
@@ -140,8 +156,7 @@
       "admissionStatus": "admitted",
       "question1": "to be a computer literate",
       "question2": "none of your business",
-      "imageUrl":  "http://4.bp.blogspot.com/_OZHbJ8c71OM/Sog43CMFX2I/AAAAAAAADEs/0AKX0XslD4g/s400/bo.png"
-      
+      "imageUrl": "http://4.bp.blogspot.com/_OZHbJ8c71OM/Sog43CMFX2I/AAAAAAAADEs/0AKX0XslD4g/s400/bo.png"
     },
     {
       "id": "5",
@@ -172,6 +187,22 @@
       "question1": "ghjkwrrtt",
       "question2": "fgbvxxx",
       "imageUrl": "https://cdn140.picsart.com/244090226021212.png?r1024x1024"
+    },
+    {
+      "id": "8uSk5qn",
+      "name": "Martha Sert",
+      "imageUrl": "https://www.freeiconspng.com/uploads/slinky-png-transparent-1.png",
+      "password": "adobo",
+      "email": "gnhs.com@gmail.com",
+      "address": "215 CHERRY ST South Elgin IL",
+      "phone": "6305976145",
+      "testScore": "78",
+      "program": "Information Security Analyst",
+      "interview": "now",
+      "admissionStatus": "in process",
+      "question1": "to be a computer engineer",
+      "question2": "because it is easy",
+      "username": "Martha"
     }
   ],
   "admins": [

@@ -26,7 +26,7 @@ function StudentApplicant({applicants, setApplicants}) {
   })
   const handleSearchApplicantById = () => {
     // Filter students based on the entered student ID
-    const foundApplicant = applicants.find(applicant => (applicant.id) === parseInt(searchTerm));
+    const foundApplicant = applicants.find(applicant => (applicant.id) === (searchTerm));
 
     if (foundApplicant) {
       setSearchedApplicant(foundApplicant);

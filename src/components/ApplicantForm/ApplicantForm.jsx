@@ -23,12 +23,13 @@ const ApplicantForm = ({onAddApplicant}) => {
         setNewApplicant({ ...newApplicant, [e.target.name]: e.target.value });
       };
       const handleAddApplicant = async () => {
-        if (  !newApplicant.id  || !newApplicant.fullName  
+        if (  !newApplicant.name  
             || !newApplicant.imageUrl|| !newApplicant.username
-            || !newApplicant.email || !newApplicant.address
-            || !newApplicant.phone 
-            || !newApplicant.program || !newApplicant.question1
-            || !newApplicant.question2
+            || !newApplicant.password || !newApplicant.email 
+            || !newApplicant.address || !newApplicant.phone 
+            || !newApplicant.testScore || !newApplicant.program 
+            || !newApplicant.interview || !newApplicant.admissionStatus
+            || !newApplicant.question1 || !newApplicant.question2
         ) {
             alert('Please fill in all fields');
             return;
@@ -53,8 +54,9 @@ const ApplicantForm = ({onAddApplicant}) => {
         // Clear the form
         setNewApplicant({ 
            
-            id: '',
+            
             name: '',
+            username: '',
             imageUrl: '',
             password:'',
             email: '',
@@ -78,16 +80,22 @@ const ApplicantForm = ({onAddApplicant}) => {
     <h2>Welcome Applicant!</h2>
     <h3>Please fill up all the required boxes below:</h3>
     <form> 
-    <p>  <label>
+   
+   <p>   <label>
       Name:
       <input type="text" name="name" value={newApplicant.name} onChange={handleInputChange} />
+    </label> </p>
+    
+    <p>  <label>
+      UserName:
+      <input type="text" name="username" value={newApplicant.username} onChange={handleInputChange} />
     </label> </p>
     <p>  <label>
         Image:
       <input type="text" name="imageUrl" value={newApplicant.imageUrl}placeholder="Image URL" onChange={handleInputChange}/>
       </label></p>
    <p>  <label>
-      username:
+      Password:
       <input type="text" name="password" value={newApplicant.password} onChange={handleInputChange} />
     </label></p>
     
